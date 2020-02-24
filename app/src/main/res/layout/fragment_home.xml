@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#87EC11"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ViewFlipper
+            android:id="@+id/v_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></ViewFlipper>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:id="@+id/ml"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:background="#384EBE"
+                android:text="ML"
+
+                />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="IOT"
+                android:background="#384EBE"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+               android:id="@+id/iot"
+                />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:text="ROBOTICS"
+                android:background="#3346B8"
+                android:id="@+id/robo"
+                />
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="andriod"
+                android:background="#18D2EB"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/andriod"
+
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="phython"
+                android:id="@+id/phy"
+                android:background="#18D2EB"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="30dp"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="Ai"
+                android:background="#18D2EB"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ai"/>
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="30dp"
+                android:text="cybersecurity"
+                android:id="@+id/cyber"
+                android:background="#30C539"
+                />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="blockchain"
+                android:background="#1FCA25"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/bc"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="web tech"
+                android:background="#1BCF24"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/web"/>
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+-->
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+    <item android:id="@+id/shareapp"
+        android:title="Shareapp"
+        android:icon="@drawable/ic_share"/>
+    <item android:id="@+id/rateus"
+        android:title="Rateus"
+        android:icon="@drawable/ic_rate"/>
+    <item android:id="@+id/admin"
+        android:title="Admin"
+        android:icon="@drawable/ic_admin"
+        />
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_exit"/>
+</menu>
